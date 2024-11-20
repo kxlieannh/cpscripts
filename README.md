@@ -31,9 +31,9 @@ While the script worked for disabling unnecessary services, it ran into seveal i
 
 firewall.sh - Successfully tested/ran script, 
 
-minor issue: be sure to use "sudo apt-get install ufw" before using script
+(Resolved 11/20/24) minor issue: be sure to use "sudo apt-get install ufw" before using script
 
-I attempted to run the script before installing UFW and it gave me "command not found" errors for each firewall script. -kh
+I changed the script to install ufw at the start of the script. There is no longer any current issue with this script. -kh
 
 password.sh - Partial Success on script running. 
 
