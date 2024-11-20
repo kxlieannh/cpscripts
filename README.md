@@ -26,5 +26,7 @@ audit.sh - Successfully tested/ran script
 disable.sh - Running into issues running/testing the script, review script.
 
 firewall.sh - Successfully tested/ran script, 
-minor issue: be sure to use ^sudo apt-get install ufw^ before using script
+
+minor issue: be sure to use "sudo apt-get install ufw" before using script
+
 I attempted to run the script before installing UFW and it gave me "command not found" errors for each firewall script.
