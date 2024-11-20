@@ -17,6 +17,8 @@ What scripts are we currently including?:
 Supported Operating Systems:
 
 -Linux OS
--Windows 11
--Windows Server
 
+
+Current Comments:
+audit.sh - Successfully tested/ran script
+disable.sh - Running into issues running/testing the script, review script.
