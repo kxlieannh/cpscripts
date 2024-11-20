@@ -10,4 +10,4 @@ sudo sed -i 's/^#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh
 echo "Restarting SSH service..."
 sudo systemctl restart sshd
 
-echo "Root login over SSH has been disabled!
+echo "Root login over SSH has been disabled!"
