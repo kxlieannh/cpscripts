@@ -29,4 +29,10 @@ firewall.sh - Successfully tested/ran script,
 
 minor issue: be sure to use "sudo apt-get install ufw" before using script
 
-I attempted to run the script before installing UFW and it gave me "command not found" errors for each firewall script.
+I attempted to run the script before installing UFW and it gave me "command not found" errors for each firewall script. -kh
+
+password.sh - Partial Success on script running. 
+
+review issue: every packet ran besides the "libpam-cracklib" packet. likely a issue with line 16, and should be revisited.
+
+I attempted to correct the script issue, any change I made to line 16 gave me a "Unable to locate package libpam-cracklib" error. This line should be relooked at. -kh
