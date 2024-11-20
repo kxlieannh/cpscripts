@@ -29,6 +29,10 @@ review issue: Script failed to disable certain units, "does not exist" errors. F
 
 While the script worked for disabling unnecessary services, it ran into seveal issues locating unit "cups.service". Along with stopping "cups.service" giving a "not loaded" error. I cannot currently identify a issue. -kh 
 
+disable2.sh - Partial Success on script running.
+
+
+
 firewall.sh - Successfully tested/ran script, 
 
 (Resolved 11/20/24) minor issue: be sure to use "sudo apt-get install ufw" before using script
