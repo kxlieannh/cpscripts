@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Install UFW
+echo "Installing UFW.."
+sudo apt-get install ufw
+
 # Enable UFW
 echo "Enabling UFW..."
 sudo ufw enable
