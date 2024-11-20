@@ -27,3 +27,15 @@ echo "Starting daily ClamAV scan..." >> \$LOG_FILE
 date >> \$LOG_FILE
 clamscan -r \$SCAN_DIR --exclude-dir="^/sys" --exclude-dir="^/proc" --exclude-dir="^/dev" --exclude-dir="^/run" --exclude-dir="^/mnt" --exclude-dir="^/media" --exclude-dir="^/lost+found" >> \$LOG_FILE
 echo "Daily ClamAV scan completed." >> \$LOG_FILE
+date >> \$LOG_FILE
+EOL
+
+# Make the script executable
+echo "Making the daily scan script executable..."
+sudo chmod +x /usr/local/bin/daily_clamav_scan.sh
+
+# Schedule the daily scan using cron
+echo "Scheduling the daily scan using cron..."
+(crontab -l 2>/dev/null; echo "0 2 * * * /usr/local/bin/daily_clamav_scan.sh") | crontab -
+
+echo "ClamAV setup complete!"
