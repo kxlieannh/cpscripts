@@ -46,3 +46,7 @@ review issue: every packet ran besides the "libpam-cracklib" packet. likely a is
 I attempted to correct the script issue, any change I made to line 16 gave me a "Unable to locate package libpam-cracklib" error. This line should be relooked at. -kh
 
 ssh.sh - Successfully tested/ran script. No issues.
+
+root.sh - Successfully tested/ran script. No issues.
+
+sysupdates.sh - Successfully tested/ran script. No issues.
