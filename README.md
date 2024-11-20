@@ -21,9 +21,13 @@ Supported Operating Systems:
 
 Current Comments:
 
-audit.sh - Successfully tested/ran script
+audit.sh - Successfully tested/ran script. No issues.
 
 disable.sh - Running into issues running/testing the script, review script.
+
+review issue: Script failed to disable certain units, "does not exist" errors. Failing to stop services.
+
+While the script worked for disabling unnecessary services, it ran into seveal issues locating unit "cups.service". Along with stopping "cups.service" giving a "not loaded" error. I cannot currently identify a issue. -kh 
 
 firewall.sh - Successfully tested/ran script, 
 
@@ -36,3 +40,5 @@ password.sh - Partial Success on script running.
 review issue: every packet ran besides the "libpam-cracklib" packet. likely a issue with line 16, and should be revisited.
 
 I attempted to correct the script issue, any change I made to line 16 gave me a "Unable to locate package libpam-cracklib" error. This line should be relooked at. -kh
+
+ssh.sh - Successfully tested/ran script. No issues.
