@@ -52,3 +52,5 @@ root.sh - Successfully tested/ran script. No issues.
 sysupdates.sh - Successfully tested/ran script. No issues.
 
 userman.sh - Successfully tested/ran script. No issues.
+
+clamAV.sh -Successfully tested/ran script. No issues.
