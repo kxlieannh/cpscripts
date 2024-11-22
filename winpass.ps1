@@ -1,4 +1,4 @@
-# Script to configure Windows password policies
+
 # Run as Administrator
 
 # Parameters
