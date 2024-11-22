@@ -33,7 +33,7 @@ windef.ps1 - Successfully tested/ran script. No issues.
 
 winpass.ps1 - Successfully tested/ran script. No issues.
 
-winfire.ps1 - Uncerain about successfullness of script. one issue.
+winfire.ps1 - Uncerain about success of script. one issue.
 
 review issue: the only issue I see is on line 17 it gives me a error that says "LogDropped" is a parameter that cant be found (cant tell if script worked completely or not) -MG
 
