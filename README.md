@@ -16,7 +16,7 @@ What scripts are we currently including?:
 
 Supported Operating Systems:
 
--Linux OS
+- Linux OS
 
 
 Current Comments:
