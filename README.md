@@ -35,11 +35,11 @@ winpass.ps1 - Successfully tested/ran script. No issues.
 
 winfire.ps1 - Uncerain about successfullness of script. one issue.
 
-review issue: the only issue I see is on line 17 it gives me a error that says "LogDropped" is a parameter that cant be found (cant tell if script worked completely or not)
+review issue: the only issue I see is on line 17 it gives me a error that says "LogDropped" is a parameter that cant be found (cant tell if script worked completely or not) -MG
 
 winlsp.ps1 - Successfully tested/ran script. one minor issue with script
 
-review issue: On line 74 it states that Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" does not exists so look into that, everything else though seem to work so good on that.
+review issue: On line 74 it states that Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" does not exists so look into that, everything else though seem to work so good on that. -MG
 
 
 
