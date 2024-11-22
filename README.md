@@ -41,6 +41,6 @@ winlsp.ps1 - Successfully tested/ran script. one minor issue with script
 
 review issue: On line 74 it states that Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" does not exists so look into that, everything else though seem to work so good on that. -MG
 
-
+winrdp.ps1 - Successfully tested/ran script. No issues.
 
 
