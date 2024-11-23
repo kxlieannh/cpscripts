@@ -65,3 +65,7 @@ securesm.sh - Successfully tested/ ran script. No issues.
 
 configlog.sh - Successfully tested/ran script. No issues.
 
+scanbadprocess.sh - Successfully tested/ran script. No issues.
+
+logbadconnect.sh - Successfully tested/ran script. No issues.
+
