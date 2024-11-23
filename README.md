@@ -25,13 +25,9 @@ audit.sh - Successfully tested/ran script. No issues.
 
 disable.sh - Running into issues running/testing the script, review script.
 
-review issue: Script failed to disable certain units, "does not exist" errors. Failing to stop services.
-
-While the script worked for disabling unnecessary services, it ran into seveal issues locating unit "cups.service". Along with stopping "cups.service" giving a "not loaded" error. I cannot currently identify a issue. -kh 
+(Resolved 11/22/24) review issue: Script failed to disable certain units, "does not exist" errors. Failing to stop services.
 
 disable2.sh - Partial Success on script running.
-
-
 
 firewall.sh - Successfully tested/ran script, 
 
