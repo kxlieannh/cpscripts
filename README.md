@@ -52,3 +52,16 @@ userman.sh - Successfully tested/ran script. No issues.
 clamAV.sh - Successfully tested/ran script. No issues.
 
 userpass.sh - Successfully tested/ran script. No issues.
+
+secboot.sh - Successfully tested/ran script. No issues.
+
+autoupdate.sh - Successfully tested/ran script. No issues.
+
+apparm.sh - Successfully tested/ran script. No issues.
+
+fail2ban.sh - Successfully tested/ran script. No issues.
+
+securesm.sh - Successfully tested/ ran script. No issues.
+
+configlog.sh - Successfully tested/ran script. No issues.
+
