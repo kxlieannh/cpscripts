@@ -23,10 +23,6 @@ Current Comments:
 
 audit.sh - Successfully tested/ran script. No issues.
 
-disable.sh - Running into issues running/testing the script, review script.
-
-(Resolved 11/22/24) review issue: Script failed to disable certain units, "does not exist" errors. Failing to stop services.
-
 disable2.sh - Partial Success on script running.
 
 firewall.sh - Successfully tested/ran script, 
