@@ -69,3 +69,5 @@ scanbadprocess.sh - Successfully tested/ran script. No issues.
 
 logbadconnect.sh - Successfully tested/ran script. No issues.
 
+disableusb.sh - Successfully tested/ran script. No issues.
+
