@@ -27,10 +27,6 @@ disable2.sh - Partial Success on script running.
 
 firewall.sh - Successfully tested/ran script, 
 
-(Resolved 11/20/24) minor issue: be sure to use "sudo apt-get install ufw" before using script
-
-I changed the script to install ufw at the start of the script. There is no longer any current issue with this script. -kh
-
 password.sh - Partial Success on script running. 
 
 review issue: every packet ran besides the "libpam-cracklib" packet. likely a issue with line 16, and should be revisited.
