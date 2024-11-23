@@ -2,11 +2,11 @@
 
 # Update package lists
 echo "Updating package lists..."
-sudo apt update
+sudo apt-get update
 
 # Upgrade all installed packages
 echo "Upgrading all installed packages..."
-sudo apt upgrade -y
+sudo apt-get upgrade -y
 
 # Perform a distribution upgrade
 echo "Performing a distribution upgrade..."
