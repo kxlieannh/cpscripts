@@ -50,3 +50,7 @@ need a valid argument/file paths before executing this script. -kh
 chkfileperm.ps1 - Successfully tested/ran script.
 
 chkpermalldir.ps1 - Successfully tested/ran script
+
+dissharedmemsql.ps1 - Review Script. Failed test/run script.
+
+script showed that no valid moduel file was found in any moduel directory. will revist this issue. - kh
