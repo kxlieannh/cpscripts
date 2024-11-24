@@ -43,14 +43,16 @@ review issue: On line 74 it states that Path "HKLM:\SOFTWARE\Microsoft\Windows\C
 
 winrdp.ps1 - Successfully tested/ran script. No issues.
 
-autotaskscan.ps1 - Invalid argument in script. Failed test/run. 
+autotaskscan.ps1 - Sucessfully tested/ran script. One issue.
 
 need a valid argument/file paths before executing this script. -kh
 
-chkfileperm.ps1 - Successfully tested/ran script.
+chkfileperm.ps1 - Successfully tested/ran script. No issues.
 
-chkpermalldir.ps1 - Successfully tested/ran script
+chkpermalldir.ps1 - Successfully tested/ran script. No issues.
 
 dissharedmemsql.ps1 - Review Script. Failed test/run script.
 
 script showed that no valid moduel file was found in any moduel directory. will revist this issue. - kh
+
+disusbstorage.ps1 - Succesfully tested/ran script. No issues.
