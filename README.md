@@ -61,7 +61,7 @@ enautoupdate.ps1 - Successfully tested/ran script. No issues.
 
 highlightsecevents.ps1 - Review Script. Failed test/run script.
 
-Gwt-WinEvent is giving an error stating "Get-WinEvent : Parameter set cannot be resolved using the specified named parameters." will revist issue if possible. -kh
+Get-WinEvent is giving an error stating "Get-WinEvent : Parameter set cannot be resolved using the specified named parameters." will revist issue if possible. -kh
 
 intemoni.ps1 - Script untested. 
 
