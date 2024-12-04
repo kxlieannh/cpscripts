@@ -27,11 +27,7 @@ disable2.sh - Partial Success on script running.
 
 firewall.sh - Successfully tested/ran script, 
 
-password.sh - Partial Success on script running. 
-
-review issue: every packet ran besides the "libpam-cracklib" packet. likely a issue with line 16, and should be revisited.
-
-I attempted to correct the script issue, any change I made to line 16 gave me a "Unable to locate package libpam-cracklib" error. This line should be relooked at. -kh
+password.sh - Successfully tested/ran script (worked on VM hooray)
 
 ssh.sh - Successfully tested/ran script. No issues.
 
