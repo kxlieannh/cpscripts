@@ -93,7 +93,4 @@ sha256base.ps1 - Successfully tested/ran script. No issues
 
 This script gave nothing saying it sucessfully executed, but after reviewing the script, i added a modification on the VM and saw it being completed. Im not gonna change the script on GitHub as of now, I just wanted to make sure it worked. and it does. -kh
 
-statsecboot.ps1 - Invalid testing/running results.
-
-running this script on VM is not necessary, we should consider on keeping this script or not. -kh
 
