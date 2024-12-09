@@ -14,7 +14,7 @@ Set-NetFirewallRule -DisplayGroup "File and Printer Sharing" -Enabled False
 Set-NetFirewallProfile -Profile Domain,Private,Public -LogFileName "C:\Windows\System32\LogFiles\Firewall\pfirewall.log"
 Set-NetFirewallProfile -Profile Domain,Private,Public -LogMaxSize 4096
 Set-NetFirewallProfile -Profile Domain,Private,Public -LogAllowed False
-Set-NetFirewallProfile -Profile Domain,Private,Public -LogDropped True
+Set-NetFirewallProfile -Profile Domain,Private,Public -LogBlocked True
 
 # 6. (Optional) Block specific ports (Example: Blocking Telnet and FTP ports for better security)
 New-NetFirewallRule -DisplayName "Block Telnet" -Direction Inbound -Protocol TCP -LocalPort 23 -Action Block
