@@ -44,7 +44,7 @@ review issue: On line 74 it states that Path "HKLM:\SOFTWARE\Microsoft\Windows\C
 
 winrdp.ps1 - Successfully tested/ran script. No issues.
 
-autotaskscan.ps1 - Sucessfully tested/ran script. One issue.
+autotaskscan.ps1 - Sucessfully tested/ran script. No issues.
 
 need a valid argument/file paths before executing this script. -kh
 
