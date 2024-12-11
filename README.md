@@ -39,7 +39,7 @@ userman.sh - Successfully tested/ran script. No issues.
 
 clamAV.sh - Successfully tested/ran script. No issues.
 
-userpass.sh - Successfully tested/ran script. No issues.
+userpass.sh - (Script Deleted: Unnessasry use of script)
 
 secboot.sh - Successfully tested/ran script. No issues.
 
