@@ -59,3 +59,12 @@ logbadconnect.sh - Successfully tested/ran script. No issues.
 
 disableusb.sh - Successfully tested/ran script. No issues.
 
+accountlockout.sh - Successfully tested/ran script. No issues.
+
+nonull.sh - Successfully tested/ran script. No issues.
+
+dentSYNatk.sh - Successfully tested/ran script. No issues.
+
+noIPv4foward.sh - Successfully tested/ran script. No issues.
+
+disableFTP.sh - Successfully tested/ran script. No issues.
