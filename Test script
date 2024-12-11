@@ -1,0 +1,20 @@
+# Create SQL Server SMO Server object using .NET libraries
+Add-Type -Path "C:\Program Files\Microsoft SQL Server\150\SDK\Assemblies\Microsoft.SqlServer.Smo.dll"
+
+# Connect to the SQL Server instance
+$server = New-Object Microsoft.SqlServer.Management.Smo.Server("(local)")
+
+# Disable the Shared Memory protocol
+$sharedMemoryProtocol = $server.Configuration.NetworkProtocols | Where-Object { $_.Name -eq "SharedMemory" }
+
+if ($sharedMemoryProtocol) {
+    if ($sharedMemoryProtocol.IsEnabled) {
+        $sharedMemoryProtocol.IsEnabled = $false
+        $sharedMemoryProtocol.Alter()
+        Write-Host "Shared Memory protocol has been disabled for SQL Server." -ForegroundColor Green
+    } else {
+        Write-Host "Shared Memory protocol is already disabled." -ForegroundColor Yellow
+    }
+} else {
+    Write-Host "Shared Memory protocol not found." -ForegroundColor Yellow
+}
