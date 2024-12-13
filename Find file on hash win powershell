@@ -1,0 +1,1 @@
+   Get-ChildItem -Recurse | Where-Object { ($_.PSPath -split '\\') | ForEach { [System.Security.Cryptography.SHA1]::Create().ComputeHash([System.IO.File]::ReadAllBytes($_)) | Out-String -Width 0 } -eq '<SHA1_HASH>' } 
